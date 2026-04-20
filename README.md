@@ -1,22 +1,16 @@
-# Highland Metabolic Risk
+# Analysis Package
 
-Public package prepared from the final submission materials dated 2026-04-12.
+This directory contains the main analysis materials for the study, including core code, configuration files, selected model artifacts, and supporting outputs.
 
-Repository URL cited in the manuscript:
+## Overview
 
-- `https://github.com/Teintes-BI/highland-metabolic-risk`
+- `src/`: source code for the analysis pipeline
+- `specs/`: study-specific configuration files
+- `scripts/`: helper scripts for analysis and reporting
+- `outputs/`: selected exported results and model files
 
-This package is organized for public upload and includes:
+## Notes
 
-- `analysis/`: core modeling code, configuration files, trained model artifacts, and selected analysis outputs from `11_B1_risk_cluster`
-- `paper/`: manuscript-supporting scripts and aggregate outputs used to generate figures/tables in `paper1`
-- `manuscript/`: final exported figure files from the submission package
-- `docs/`: source-mapping notes linking manuscript assets to upstream analysis files
+This package is intended to document the overall analytical framework used in the study and to provide the main materials associated with model development and evaluation.
 
-Not included in this public package:
-
-- raw participant-level datasets
-- harmonized individual-level external validation files
-- private intermediate data files subject to privacy or data-use restrictions
-
-The manuscript states that individual-level data are available on reasonable request and appropriate approvals, while code and trained model artifacts are publicly available in this repository.
+Raw participant-level datasets are not included in the public release.
