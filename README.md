@@ -1,6 +1,6 @@
-# Analysis Package
+# Highland Metabolic Risk Analysis
 
-This directory contains the main analysis materials for the study, including core code, configuration files, selected model artifacts, and supporting outputs.
+This repository contains the main analysis materials for the study, including core code, configuration files, selected model artifacts, and supporting outputs.
 
 ## Overview
 
