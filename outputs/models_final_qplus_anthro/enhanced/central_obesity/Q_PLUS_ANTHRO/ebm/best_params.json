@@ -1,0 +1,7 @@
+{
+  "best_params": {
+    "model__interactions": 10,
+    "model__learning_rate": 0.01,
+    "model__max_bins": 256
+  }
+}

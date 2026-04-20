@@ -1,0 +1,9 @@
+﻿stability:
+  bootstrap_B: 200
+  subsample_frac: 0.7
+  inclusion_freq_threshold: 0.6
+  sign_consistency_threshold: 0.8
+  top_k: 30
+  model: "elasticnet"
+  featureset: "Q_ONLY"
+  max_iter: 5000

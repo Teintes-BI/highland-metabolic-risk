@@ -1,0 +1,9 @@
+{
+  "best_params": {
+    "model__subsample": 0.7,
+    "model__n_estimators": 200,
+    "model__max_depth": 3,
+    "model__learning_rate": 0.02,
+    "model__colsample_bytree": 0.85
+  }
+}

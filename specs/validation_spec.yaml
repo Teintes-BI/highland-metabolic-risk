@@ -1,0 +1,8 @@
+﻿validation:
+  mode: "cv"   # cv | dev_val
+  validation_path: null
+  external_mapping_path: "specs/column_mapping.yaml"
+  recalibration:
+    method: "intercept_slope"   # intercept_slope | isotonic | none
+  calibration:
+    ece_bins: 10

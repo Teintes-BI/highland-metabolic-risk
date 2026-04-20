@@ -1,0 +1,13 @@
+﻿orthogonal_tables:
+  min_cell_n: 50
+  combos:
+    - name: "smoke_x_drink"
+      variables: ["17、B1  您最近30天的吸烟情况：", "22、B3.1 您的饮酒习惯属于下列哪一类？"]
+    - name: "smoke_x_drink_x_butter"
+      variables: ["17、B1  您最近30天的吸烟情况：", "22、B3.1 您的饮酒习惯属于下列哪一类？", "28、(1)B7 过去一个月，您喝奶茶大概吃了___饼酥油？"]
+
+  binning:
+    "28、(1)B7 过去一个月，您喝奶茶大概吃了___饼酥油？":
+      type: "numeric"
+      bins: [0.0, 1.0, 999999]
+      labels: ["0-1", ">1"]

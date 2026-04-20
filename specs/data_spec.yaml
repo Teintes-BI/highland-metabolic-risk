@@ -1,0 +1,17 @@
+data:
+  path: "/pubdata/yans/00_input/ncd/2400诊断.xlsx"
+  type: xlsx
+  encoding: utf-8
+  sheet_name: 0
+  id_column: null
+  pii_columns: []
+  missing_values:
+  - ''
+  - NA
+  - N/A
+  - 'null'
+  - 'NULL'
+  - 999
+  - -1
+  date_columns: []
+  hash: null

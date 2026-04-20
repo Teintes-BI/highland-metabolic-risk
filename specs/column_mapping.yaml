@@ -1,0 +1,23 @@
+mappings:
+  - from: "16、A13 去年您全家一年的人均可支配/纯收入(包括各种来源)在什么范围?\n\n\n\n"
+    to: "16、A13 去年您全家一年的人均可支配/纯收入(包括各种来源)在什么范围?"
+  - from: "26、B5 过去一个月，您大概多少时间吃一次新鲜水果？\n\n\n\n"
+    to: "26、B5 过去一个月，您大概多少时间吃一次新鲜水果？"
+  - from: "34、C1.1您两周内服用降压药的情况？\t"
+    to: "34、C1.1您两周内服用降压药的情况？"
+  # Column name mapping: rename input columns ("from") into the canonical names ("to")
+  # expected by `specs/features_spec.yaml` and `specs/outcomes_spec.yaml`.
+  #
+  # Use-cases:
+  # - You receive a new Excel where headers differ slightly (e.g., "性别" instead of "6、A4 您的性别：").
+  # - You want the project to accept both the label table and the questionnaire-only table.
+  #
+  # Examples (edit as needed):
+  # - from: "性别"
+  #   to: "6、A4 您的性别："
+  # - from: "年龄(岁)"
+  #   to: "年龄"
+  #
+  # Notes:
+  # - Non-existing `from` columns are ignored.
+  # - If multiple `from` map to the same `to`, the last one wins.
